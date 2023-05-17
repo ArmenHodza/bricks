@@ -35,7 +35,7 @@
 			var minuteI;
 			var intTimer;
 			var izpisTimer;
-			var start=true;
+			var start=false;
 			
 			//timer
 			function timer(){
@@ -98,6 +98,7 @@
 					dx = 4;
 					dy = 8;
 				}
+				start=true;
 				intervalId = setInterval(draw, 10);
 			}});
             }
